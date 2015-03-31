@@ -13,9 +13,9 @@ use JavaScript and jQuery build frontend page ,cooperate with designer.
 
 ------
 
-### Work Experience {#experience}
+### Experience {#experience}
 
-uitox global e-commerce group 
+UITOX global e-commerce group 
 : *Web Developer*
     __2013/06-__
     1. Develop Inside System,e-commerce website , ex (http://www.asap.com.tw/)
@@ -29,9 +29,9 @@ Yahoo
 MagV Ltd. Company
 : *Research And Development Engineer*
     __2011/03-2012/03__
-1. maintain the website,reporting system.  
-2. develop website tool for sales use.    
-3. study new technic and use on job.  
+    1. maintain the website,reporting system.  
+    2. develop website tool for sales use.    
+    3. study new technic and use on job.  
 
 ------
 
