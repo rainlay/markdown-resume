@@ -11,7 +11,7 @@
 over 3 years Web Application experience.  
 use PHP as main backend language.  
 use JavaScript and jQuery build frontend page ,cooperate with designer.
-have system analysis & system design experience.
+system analysis & system design experience.
 
 ------
 
@@ -69,7 +69,6 @@ the system reorganize business raw data , turn into easy understand data. sales 
 1. Oracle Database
 1. Git
 1. CodeIgniter
-1. Windows
 1. Linux
 
 ------
