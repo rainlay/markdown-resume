@@ -2,14 +2,13 @@
 ## PHP Developer
 
 > [rainlay@gmail.com](rainlay@gmail.com)  
-> 新北市樹林區日新街148巷27號2樓
-> 0923719996
 
 ------
 
 ### Profile {#profile}
 
-三年以上網站開發經驗，
+四年以上網站開發經驗，
+三年以上的電子商務相關經驗,
 使用PHP為後端程式開發語言，
 前端使用JavaScript,jQuery協同設計師開發網頁。
 
@@ -42,6 +41,10 @@ MagV Ltd. Company
 ------
 
 ### Projects {#projects}
+
+跨境 第一階段
+: 跨境的願景為所有廠商可以在不同的國家的不同平台販售各國的商品，第一階段為台灣可販售日本商品，
+因此佈置系統與其他系統協作，調整為可上架國外商品。
 
 佈置機器人系統
 : 佈置系統的特定模組提供自動上稿的方式，使用者只要設定好想要的篩選條件，儲存之後程式便會自動上稿完畢，並	  且每天會於特定時間自動更新為該條件下的最新商品。
@@ -99,6 +102,6 @@ OLS AM DASHBOARD
 
 ### Footer {#footer}
 
-李偉新 -- [rainlay@gmail.com](rainlay@gmail.com) -- 0923719996
+李偉新 -- [rainlay@gmail.com](rainlay@gmail.com) -- 
 
 ------
