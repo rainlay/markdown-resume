@@ -8,42 +8,50 @@
 ------
 ### Profile {#profile}
 
-over 3 years Web Application experience.  
+over 4 years Web Application experience.  
+over 2 years electronic commerce experience.
 use PHP as main backend language.  
-use JavaScript and jQuery build frontend page ,cooperate with designer.
+use JavaScript and jQuery build frontend page ,cooperate with designer.  
 system analysis & system design experience.
 
 ------
 
 ### Experience {#experience}
 
-UITOX global e-commerce group 
+UITOX global e-commerce group
 : *Web Developer*
-    __2013/06-Now__
-    1. develop Inside System,e-commerce website , ex (http://www.asap.com.tw/).  
-    2. few projects lead and execute.  
+	__2013/06-Now__
+	1. develop Inside System,E-commerce website , ex (http://www.asap.com.tw/).  
+	2. few projects lead and execute.  
 
 Yahoo
 : *YSM API Engineer (outsourced contractor)*
-    __2012/04-2013/04__
-    1.maintain the existing system,add some new features.  
-    2.write api for department,cross department usage.  
-    3.develop Yahoo! Search Marketing (YSM) inside system，tuning tools.  
-  
+	__2012/04-2013/04__
+	1.maintain the existing system,add some new features.  
+	2.write api for department,cross department usage.  
+	3.develop Yahoo! Search Marketing (YSM) inside system，tuning tools.  
+
 MagV Ltd. Company
 : *Research And Development Engineer*
-    __2011/03-2012/03__
-    1. maintain the website,reporting system.  
-    2. develop website tool for sales use.    
-    3. study new technic and use on job.  
+	__2011/03-2012/03__
+	1. maintain the website,reporting system.  
+	2. develop website tool for sales use.
+	3. study new technic and use on job.  
 
 ------
 
 ### Projects {#projects}
 
+*Deploy Robot Cross Version*
+: base on deploy robot system, cooperate with solr ,add new arguments ,and deploy cross items.
+
+*Deploy Robot*
+: deploy robot system's module provide auto insert data function.
+product manager can setup the condition and save,after that , the program will send conditions to solr , and the solr system will return the filtered results . the robot program will insert those results,and the system will auto refresh from saved conditions.
+
 *New EDM (V3)*
 : the new edm system is a tiny CMS (Content Management System) like system,
-system has provie edm webpage template module,
+system has provide edm webpage template module,
 user can edit module, module is contains many features, like upload picture ,set link,change title、item name
 user can add or delete what module they want ,
 after user edited, they can via edm system to publish a  single webpage.
@@ -83,7 +91,7 @@ Taipei Municipal Shilin High School of Commerce - Data Processing
 
 ------
 
-### Other 
+### Other
 
 Birthday : 1987/02/18
 
