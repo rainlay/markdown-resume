@@ -2,6 +2,7 @@
 ## PHP Developer
 
 > [rainlay@gmail.com](rainlay@gmail.com)  
+> 新北市樹林區日新街148巷27號2樓
 
 ------
 
@@ -26,17 +27,17 @@ uitox global e-commerce group
 香港商雅虎資訊股份有限公司(Yahoo!奇摩)
 : *YSM API Engineer (outsourced contractor)*
 	__2012年04月-2013年04月__
-	1.開發  Yahoo!  Search  Marketing  (YSM)  之會員帳戶資料分析，優化的內部工具
-	2.開發報表工具之相關API給予內部其他系統以及其他頻道串接。
-	3.既有系統的維護及新增功能  
-	4.開發工具給予Yahoo經銷商使用  
+	1. 開發  Yahoo!  Search  Marketing  (YSM)  之會員帳戶資料分析，優化的內部工具
+	2. 開發報表工具之相關API給予內部其他系統以及其他頻道串接。
+	3. 既有系統的維護及新增功能  
+	4. 開發工具給予Yahoo經銷商使用  
 
 MagV Ltd. Company
 : *Research And Development Engineer*
 	__2011年03月-2012年03月__
-	1.維護公司網站，撰寫報表、金流、WebService等程式  
-	2.與客服人員協處理同會員使用系統遭遇之問題  
-	3.研究新技術應用於工作
+	1. 維護公司網站，撰寫報表、金流、WebService等程式  
+	2. 與客服人員協同處理會員使用系統遭遇之問題  
+	3. 研究新技術應用於工作
 
 ------
 
@@ -86,7 +87,7 @@ OLS AM DASHBOARD
 1. Oracle Database
 1. Git
 1. CodeIgniter
-1. Linux
+1. Object-Oriented Programming
 
 ------
 
@@ -106,6 +107,6 @@ OLS AM DASHBOARD
 
 ### Footer {#footer}
 
-李偉新 -- [rainlay@gmail.com](rainlay@gmail.com) --
+李偉新 -- [rainlay@gmail.com](rainlay@gmail.com) -- 0923719996
 
 ------
