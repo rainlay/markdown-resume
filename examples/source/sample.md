@@ -9,11 +9,16 @@
 
 ### Profile {#profile}
 
-四年以上網站開發經驗，
-三年以上的電子商務相關經驗,
-使用PHP為後端程式開發語言，
-前端使用JavaScript,jQuery協同設計師開發網頁。
-
+四年以上網站開發經驗
+三年以上的電子商務相關經驗
+三年以上PHP開發經驗
+四年以上RDBMS經驗 (MySQL, Oracle, Microsoft SQL Server)
+四年以上JavaScript開發經驗 (jQuery)
+系統設計，系統分析相關經驗
+設計模式、物件導向程式設計、Clean Code
+PHP框架: 熟CodeIgniter，基礎的Laravel經驗
+版本控制:Git, SVN
+其它:AngularJS, Node.js
 ------
 
 ### Work Experience {#experience}
@@ -35,7 +40,7 @@ uitox global e-commerce group
 MagV Ltd. Company
 : *Research And Development Engineer*
 	__2011年03月-2012年03月__
-	1. 維護公司網站，撰寫報表、金流、WebService等程式。  
+	1. 維護公司網站，撰寫報表、金流、WebService等程式。
 	2. 與客服人員協同處理會員使用系統遭遇之問題。  
 	3. 研究新技術應用於工作。
 

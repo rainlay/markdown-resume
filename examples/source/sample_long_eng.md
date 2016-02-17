@@ -9,19 +9,19 @@
 
 ### Profile {#profile}
 
-四年以上網站開發經驗  
-三年以上的電子商務相關經驗  
-使用PHP為後端程式開發語言  
-前端使用JavaScript, jQuery協同設計師開發網頁  
-系統分析，系統設計相關經驗  
+Over 4 years Web Application experience  
+Over 3 years electronic commerce experience  
+Use PHP as main backend language  
+Use JavaScript and jQuery build frontend page ,cooperate with designer  
+System Analysis & System Design experience
 
 * Over 4 years PHP experience
 * Over 4 years JavaScript experience (also familiar with jQuery)
 * Over 4 years RDBMS experience (such as MySQL, Oracle, Microsoft SQL Server)
 * Knowledge of Design Patterns. Object-Oriented Programming
-* Knowledge of System Analysis, System Design,Clean Code
+* Knowledge of System analysis, System Design,Clean code
 * PHP Framework : familiar with CodeIgniter, base experience with Laravel
-* Version Control: Git , SVN
+* Version control: Git , SVN
 * Other: AngularJS, Node.js, Unit test, TDD , Redis
 
 ------
@@ -62,12 +62,12 @@ MagV Ltd. Company
 uitox 品牌電商系統-佈置系統
 : 將原本的佈置系統重新設計並改良，而設計出包含更多功能以及更加彈性的新系統，
 品牌電商佈置系統功能更接近了所謂的內容管理系統，它包含了以下特色:
-* 提供了各種編輯模組
-* 多樣的主題以及風格
-* 跨境商品上稿
-* 機器人上稿
-* Mobile版網頁佈置
-* 手機App 佈置API
+*提供了各種編輯模組
+*多樣的主題以及風格
+*跨境商品上稿
+*機器人上稿
+*Mobile版網頁佈置
+*手機App 佈置API
 
 佈置頁面系統 (ASAP, 飛牛網, SOSOON)
 : 佈置系統會先產生網頁版型，以及內容區塊，內部人員可利用上稿的方式(上傳圖片，輸入文字等)填入內容區塊，
