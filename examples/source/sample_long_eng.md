@@ -2,8 +2,6 @@
 ## PHP Developer
 
 > [rainlay@gmail.com](rainlay@gmail.com)  
-> 新北市樹林區日新街148巷27號2樓  
-> 0923719996
 
 ------
 
@@ -28,72 +26,73 @@ System Analysis & System Design experience
 
 ### Work Experience {#experience}
 
-uitox global e-commerce group
+UITOX global e-commerce group
 : *Web Developer*
-	__2013年6月-現今__
-	1. 與設計師協同開發網頁前端應用。  
-	2. 開發公司內部賣場系統、公司電子商務網站。  
-    3. 獨立執行小型專案。
-	4. 與團隊合作進行大型專案開發。
+    __2013/06-Now__
+    1. Cooperate with designer to build frontend Web Application.
+    2. Develop Inside System,E-commerce website , ex (http://www.asap.com.tw/).  
+    3. Develop small projects independent.
+    4. Work with team to develop large projects.
 
-香港商雅虎資訊股份有限公司(Yahoo!奇摩)
+Yahoo
 : *YSM API Engineer (outsourced contractor)*
-	__2012年04月-2013年04月__
-	1. 開發  Yahoo!  Search  Marketing  (YSM)  之會員帳戶資料分析，優化的內部工具。  
-	2. 開發報表工具之相關API給予內部其他系統以及其他頻道串接。  
-	3. 開發工具給予Yahoo經銷商使用。
+	__2012/04-2013/04__
+	1.Maintain the existing system,add some new features.  
+	2.Write api for department,cross department usage.  
+	3.Develop Yahoo! Search Marketing (YSM) inside system，tuning tools.  
 
 MagV Ltd. Company
 : *Research And Development Engineer*
-	__2011年03月-2012年03月__
-	1. 維護公司網站，撰寫報表、金流、WebService等程式。  
-	2. 與客服人員協同處理會員使用系統遭遇之問題。  
-	3. 研究新技術應用於工作。
+	__2011/03-2012/03__
+	1. Maintain the website,reporting system.  
+	2. Develop website tool for sales use.
+	3. Study new technic and use on job.  
 
 ------
 
 ### Projects {#projects}
 
 佈置機器人系統
-: 人工上稿很繁雜瑣碎，內容太多來不及上稿完畢，有沒有辦法程式自動上稿?佈置機器人需求就是因此需求而產生，
-機器人提供許多條件(分類、屬性、銷售排行...etc)，使用者設定好自己需求的條件後，編輯模組即可自動將商品內容上稿完成，
-並且每天於固定時間更新該條件下最新的商品。
+:
+Deploy robot system's module provide auto insert data function.
+product manager can setup the condition and save,after that , the program will send conditions to solr , and the solr system will return the filtered results . the robot program will insert those results,and the system will auto refresh from saved conditions.
 
-uitox 品牌電商系統-佈置系統
+Uitox Brand ecommerce system - Deploy system
 : 將原本的佈置系統重新設計並改良，而設計出包含更多功能以及更加彈性的新系統，
 品牌電商佈置系統功能更接近了所謂的內容管理系統，它包含了以下特色:
-*提供了各種編輯模組
-*多樣的主題以及風格
-*跨境商品上稿
-*機器人上稿
-*Mobile版網頁佈置
-*手機App 佈置API
+* 提供了各種編輯模組
+* 多樣的主題以及風格
+* 跨境商品上稿
+* 機器人上稿
+* Mobile版網頁佈置
+* 手機App 佈置API
 
 佈置頁面系統 (ASAP, 飛牛網, SOSOON)
 : 佈置系統會先產生網頁版型，以及內容區塊，內部人員可利用上稿的方式(上傳圖片，輸入文字等)填入內容區塊，
 之後可以進行發布的動作，將網頁發布為靜態頁面，可以有效地減輕伺服器的承載量，提供一般使用者瀏覽，ex: ASAP首頁。
 
 EDM Deploy System
-: EDM佈置系統是從佈置系統拿來的概念而進行改造，傳統的EDM發布方式是由PM想好文案，請設計師設計出靜態網頁，
-EDM佈置系統則將這部分系統化，將較為一般或者常態EDM促銷訊息，透過系統來產出，
-而EDM系統內建數種常用的主題，使用者可在此版面新增系統提供的編輯模組，
-進而上傳圖片，建立標題等功能...編輯完成後的EDM網頁可以提供給使用者瀏覽，
-因此可以進一步減少PM以及設計師的工作量，並且快速產出促銷活動。
+:
+The new edm system is a tiny CMS (Content Management System) like system,
+system has provie edm webpage template module,
+user can edit module, module is contains many features, like upload picture ,set link,change title、item name
+user can add or delete what module they want ,
+after user edited, they can via edm system to publish a  single webpage.
 
-EDM 行銷活動
-: 產品經理請設計師設計好靜態的EDM網頁後，可以透過EDM行銷活動後台發布成網站裡的網頁，
-後台提供了將靜態檔案轉換為網站裡的網頁以外，並且可以設定曝光時間，以及是否啟用此EDM網頁等功能。
+EDM
+:
+Product manager can upload a formated html archive package, the edm system will unzip package and move them into the system's website folder ,then build a public link let user can see this page,even more ,product manager can set the edm page when to show,when to expired.
 
-快照與發票系統
-: 快照系統可拍下使用者所購買之商品頁面，提供給消費者以及公司之消費相關依據存證。
-  電子發票系統則可建立電子發票給予使用者自行列印使用。
+Snapshot & Invoice
+:
+The snapshot can capture the customer shopping list pages.
+user and company can save it as evidence.
+the Invoice system can create the electronic invoice that users can keep it or print out.。
 
 OLS AM DASHBOARD
-: OLS AM DASHBOARD 是一個類似看盤資訊的網站，此系統將原始雜亂的各種數據，
-整理成有意義且使人易懂的資訊後，顯示在網頁上給予業務人員使用，
-而業務也可以直接透過此系統進行業務上的操作，
-例如直接幫客戶下訂單... 追蹤客戶數據,管理業績等...許多功能。
-
+:
+OLS AM DASHBOARD is like stock information website.
+the system reorganize business raw data , turn into easy understand data. sales can see on the webiste. and sales can via system to operating business , for example : help client to place order,sales performance management... etc
 ------
 
 ### Technical {#technical}
@@ -112,8 +111,8 @@ OLS AM DASHBOARD
 
 ### Degree {#degree}
 
-亞東技術學院 資訊管理系
-	__2005年-2009年__
+Oriental Institute of Technology Department of Information Management
+	__2005-2009__
 
 ------
 

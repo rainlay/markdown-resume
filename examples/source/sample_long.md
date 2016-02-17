@@ -2,8 +2,6 @@
 ## PHP Developer
 
 > [rainlay@gmail.com](rainlay@gmail.com)  
-> 新北市樹林區日新街148巷27號2樓  
-> 0923719996
 
 ------
 
