@@ -1,5 +1,5 @@
 # 李偉新
-## PHP Developer
+## Senior Back-end Developer
 
 > [rainlay@gmail.com](rainlay@gmail.com)  
 
@@ -7,28 +7,48 @@
 
 ### Profile {#profile}
 
-四年以上網站開發經驗  
-三年以上的電子商務相關經驗  
-使用PHP為後端程式開發語言  
-前端使用JavaScript, jQuery協同設計師開發網頁  
-系統分析，系統設計相關經驗  
+八年以上網頁服務相關開發經驗  
+五年以上的電子商務相關經驗  
+三年以上的數位學習相關經驗  
+使用 PHP 為後端程式開發語言  
+前端使用 JavaScript, jQuery 協同設計師開發網頁  
+系統架構，系統分析，系統設計相關經驗  
+基本的測試驅動開發 (TDD) 相關經驗
 
-* Over 4 years PHP experience
-* Over 4 years JavaScript experience (also familiar with jQuery)
-* Over 4 years RDBMS experience (such as MySQL, Oracle, Microsoft SQL Server)
+* Over 8 years PHP experience
+* Over 8 years JavaScript experience (also familiar with jQuery)
+* Over 8 years RDBMS experience (such as MySQL, Oracle, Microsoft SQL Server)
 * Knowledge of Design Patterns. Object-Oriented Programming
-* Knowledge of System Analysis, System Design,Clean Code
-* PHP Framework : familiar with CodeIgniter, base experience with Laravel
+* Knowledge of System Analysis, System Design, Clean Code
+* Knowledge of Web Socket Programing
+* PHP Framework : familiar with CodeIgniter, experience with Laravel
+* Cache/NoSQL: Redis, Cassandra, MongoDB
+* Knowledge of Google Cloud Platform (GCP) Management
+* Knowledge of Cassandra
 * Version Control: Git , SVN
-* Other: AngularJS, Node.js, Unit test, TDD , Redis
+* Other: Node.js,  Vue.js, Unit test, TDD, Redis, 
+* Lovely Tools: PhpStorm, GitKraken, vim, tmux, insomnia,MySQL Workbench, Cmder 
 
 ------
 
 ### Work Experience {#experience}
 
+學悅科技股份有限公司
+: *Senior Back-end Developer*
+	__2016年04月-現今__
+	1. 後端 API 設計與開發，與前端網頁、APP 工程師合作開發產品，協助導入 REST 風格 API，定義 API 命名風格，回應格式與錯誤代碼。
+	2. 導入 Beanstalkd (Queue) 結合 Supervisor 處理推播訊息等高負載任務。
+	3. 導入 Workerman PHP Socket 框架，作為訊息聊天架構的解決方案。
+	4. 導入 Deployer 作為 Deployment 方案，可以實現 Zero Downtime 的程式碼更新與 Rollback。
+	5. Google Cloud Platform 管理與維運。
+	6. 導入 Percona Monitoring and Management (PMM) 監控 MySQL 運行狀況，分析與優化。
+	7. 導入 RunDeck 使部屬自動化，以及管理排程 (Cron Job)。
+	8. 使用 Gulp 配合 CodeIgnter 實現 JS/CSS 快取更新機制。
+	9. Zuvio IRS-PTT Plugin 主要開發者。
+
 uitox global e-commerce group
 : *Web Developer*
-	__2013年6月-現今__
+	__2013年6月-2016年04月__
 	1. 與設計師協同開發網頁前端應用。  
 	2. 開發公司內部賣場系統、公司電子商務網站。  
     3. 獨立執行小型專案。
@@ -36,7 +56,7 @@ uitox global e-commerce group
 
 香港商雅虎資訊股份有限公司(Yahoo!奇摩)
 : *YSM API Engineer (outsourced contractor)*
-	__2012年04月-2013年04月__
+	__2012年04月-2013年04月__ 
 	1. 開發  Yahoo!  Search  Marketing  (YSM)  之會員帳戶資料分析，優化的內部工具。  
 	2. 開發報表工具之相關API給予內部其他系統以及其他頻道串接。  
 	3. 開發工具給予Yahoo經銷商使用。
@@ -48,9 +68,10 @@ MagV Ltd. Company
 	2. 與客服人員協同處理會員使用系統遭遇之問題。  
 	3. 研究新技術應用於工作。
 
-------
-
 ### Projects {#projects}
+
+監視作弊作答監控 
+: 教師希望在使用 Zuvio IRS 系統時可以監控學生上課作答測驗的狀況，例如是否切換 APP 畫面去查檔案，登入別人的帳號去幫忙作答等各種作弊情況，系統使用 WebSocket 即時監控學生連線情形，並配合裝置 UUID, 網頁的 IP、Port、Canvas Fingerprint 等指紋來辨識學生作答情形。
 
 佈置機器人系統
 : 人工上稿很繁雜瑣碎，內容太多來不及上稿完畢，有沒有辦法程式自動上稿?佈置機器人需求就是因此需求而產生，
@@ -87,34 +108,33 @@ EDM 行銷活動
   電子發票系統則可建立電子發票給予使用者自行列印使用。
 
 OLS AM DASHBOARD
-: OLS AM DASHBOARD 是一個類似看盤資訊的網站，此系統將原始雜亂的各種數據，
+: OLS AM DASHBOARD 是一個類似股票看盤資訊的網站，此系統將原始雜亂的各種數據，
 整理成有意義且使人易懂的資訊後，顯示在網頁上給予業務人員使用，
 而業務也可以直接透過此系統進行業務上的操作，
-例如直接幫客戶下訂單... 追蹤客戶數據,管理業績等...許多功能。
+例如幫客戶下訂單、追蹤客戶數據、管理業績...等許多功能。
 
 ------
 
 ### Technical {#technical}
 
-1. PHP
-1. JavaScript
-1. jQuery
-1. MySQL
-1. Oracle Database
+1. PHP / CodeIgniter
+1. JavaScript / jQuery
+1. WebSocket
+1. MySQL / MariaDB
+1. Redis / Beanstalkd
 1. Git
-1. CodeIgniter
-1. Linux
+1. GCP
+1. Ubuntu
 1. Object-Oriented Programming
 
 ------
 
-### Degree {#degree}
+### Experience {#experience}
 
-亞東技術學院 資訊管理系
-	__2005年-2009年__
+臺北市立大學 資訊科學系
+	__2016年-2018年__
 
 ------
-
 ### Birthday
 
 1987/02/18
