@@ -1,9 +1,10 @@
-# Markdown Resume Generator [![Build Status](https://travis-ci.org/there4/markdown-resume.png?branch=master)](https://travis-ci.org/there4/markdown-resume)
+# Markdown Resume Generator [![Build Status](https://travis-ci.org/there4/markdown-resume.png?branch=master)](https://travis-ci.org/there4/markdown-resume)[![nodesource/node](http://dockeri.co/image/there4/markdown-resume)](https://registry.hub.docker.com/u/there4/markdown-resume/)
+
 > Convert markdown to HTML and PDF resumes
 
 Turn a simple Markdown document into an elegant resume with both a perfect
 pdf printable format, and a responsive css3 html5 file. You can view a sample
-at the [blog post for the project][blog].
+at the [blog post for the project][blog], or look in examples/output to see sample PDFs.
 
 ## Features
 
@@ -14,18 +15,49 @@ at the [blog post for the project][blog].
 * Single file deployment (no external stylesheets)
 * You can now version control and branch your resume.
 
-## Quickstart
+## Installation
 
-  There is no installation or need to run composer. Just download and [run the phar file](https://github.com/there4/markdown-resume/raw/master/bin/md2resume):
+### Docker
 
-```
-    ./bin/md2resume html examples/source/sample.md examples/output/
-    ./bin/md2resume pdf examples/source/sample.md examples/output/
+Run those commands in the directory where you put your markdown resume.
+
+#### Oneshot command
+
+This is best suited for use in scripts or in CI environments:
+
+`docker run -v ${PWD}:/resume there4/markdown-resume md2resume [options] command [arguments]`
+
+#### Interactive console
+
+This allows you to enter an interactive console where you can easily experiment and run different commands:
+
+`docker run -it -v ${PWD}:/resume there4/markdown-resume`
+
+### Local
+
+1. Clone the repo `git clone git@github.com:there4/markdown-resume.git` or [Download ZIP](https://github.com/there4/markdown-resume/archive/master.zip)
+2. **PHP 7** and **[composer](https://getcomposer.org/download/)** are installed and on your PATH
+3. `composer install` inside of the project directory to install dependencies
+
+4. For generating PDF files, you need to install `wkhtmltopdf`
+    * OSX: `brew cask install wkhtmltopdf` via [Homebrew Cask](https://caskroom.github.io/)
+    * Debian: `sudo apt install php7.0-mbstring wkhtmltopdf`
+    * Fedora `sudo dnf install php-mbstring wkhtmltopdf`
+
+## Usage
+
+The two most important commands are the following two. Run them
+inside the cloned directory
+
+```bash
+./bin/md2resume html examples/source/sample.md examples/output/
+./bin/md2resume pdf examples/source/sample.md examples/output/
 ```
 
 ## Help
+
 ```
-Markdown Resume Generator version 2.0.10 by Craig Davis
+Markdown Resume Generator version 2.3.0 by Craig Davis
 
 Usage:
   [options] command [arguments]
@@ -40,34 +72,35 @@ Options:
   --no-interaction -n Do not ask any interactive question.
 
 Available commands:
-  help         Displays help for a command
-  html         Generate an HTML resume from a markdown file
-  list         Lists commands
-  pdf          Generate a PDF from a markdown file
-  selfupdate   Updates md2resume.phar to the latest version.
-  stats        Generate a word frequency analysis of your resume
-  templates    List available templates
-  version      Show current version information
+  help        Displays help for a command
+  html        Generate an HTML resume from a markdown file
+  list        Lists commands
+  pdf         Generate a PDF from a markdown file
+  stats       Generate a word frequency analysis of your resume
+  templates   List available templates
+  version     Show current version information
 
 ```
+
 ## Examples
 
 Choose a template with the -t option.
 
-    `./bin/md2resume html --template blockish examples/source/sample.md examples/output/`
+```bash
+./bin/md2resume html --template blockish examples/source/sample.md examples/output/`
+```
 
 If you want to edit your markdown resume in your editor while watching it
 update in your browser, run this command:
 
-    `watch ./bin/md2resume html --refresh yes --template modern examples/source/sample.md examples/output/`
+```bash
+watch ./bin/md2resume html --refresh yes --template modern examples/source/sample.md examples/output/
+```
 
 This makes the build script run periodically, and html document will refresh
 every two seconds via a meta tag. Open the `./examples/ouput/sample.html` file
 in your browser, and then just save your markdown document when you want to see
 a fresh preview.
-
-For information about running this inside a Docker container, please read [Issue 46](https://github.com/there4/markdown-resume/issues/46#issuecomment-126520792)
-where [Sebastian Klose](https://github.com/sklose) has shared his approach.
 
 ## Authoring Your Resume
 
@@ -78,31 +111,17 @@ and then use CSS rules to display a nicely formatted resume. Note that because
 we have very few ways to nest or identify elements that many of the css rules
 are based on descendant and adjacent selectors.
 
-__PLEASE NOTE__: The templates are compiled into the phar archive in the `./bin`
-folder. If you intend to edit the templates or add new ones, you'll need to run
-this application in the dev mode. See below for more information about doing
-this.
-
 ## Feature Development
 
-The application is deployed as a compiled phar file. In order to add new
-commands, you'll need to first install the dependencies:
-
-* `composer install`
+In order to add new commands, you'll need to first install the dependencies via `composer install`
 
 After that, you can run the `md2resume_dev.php` file from the command line.
 
 ## Building a Release
 
-1. Tag the repo with the new build number. This will be picked up for both
-   the `version` file used by the self update command and placed into the
-   phar file.
-2. Run `pake build`.
+1. Tag the repo with the new build number.
+2. Run `composer build`.
 3. Push both the tag and the code.
-
-Check out the pake tooling for more information about the build. Pake will be
-installed to `./vendor/bin/pake`. So for instance a complete phar file build
-looks like `./vendor/bin/pake build`.
 
 ## Acknowledgments
 
@@ -113,6 +132,11 @@ are a more comfortable with html than markdown, you should use it.
 
 ## Changelog
 
+* __2.3.1__ : Fix embedded images in PDF generation with Docker  [@danielklim](https://github.com/danielklim)
+* __2.3.0__ : Add Docker support to ease the installation process  [@spawnia](https://github.com/spawnia)
+* __2.2.0__ : Dropped phar file distribution, removed Pake and migrated to composer commands
+* __2.1.0__ : Dropped PHP5 support
+* __2.0.12__ : Added new `Roboto` template from [@ejwaibel](https://github.com/ejwaibel)
 * __2.0.10__ : Updated spacing in moder template with commites from [@501st-alpha1](https://github.com/501st-alpha1)
 * __2.0.9__ : Updated Modern template with improved spacing. Update parsing of
   `--template` option to close [issue #7](https://github.com/there4/markdown-resume/issues/7)
