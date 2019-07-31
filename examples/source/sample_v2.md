@@ -29,7 +29,7 @@
 * Cache/NoSQL: Redis, Cassandra, MongoDB
 * Version Control: Git , SVN
 * Other: Node.js, Vue.js, Unit test, TDD
-* Lovely Tools: PhpStorm, GitKraken, vim, tmux, insomnia,MySQL Workbench, Cmder 
+* Lovely Tools: PhpStorm, GitKraken, vim, tmux, insomnia,MySQL Workbench, Cmder
 
 ------
 
@@ -58,7 +58,7 @@ uitox global e-commerce group
 
 香港商雅虎資訊股份有限公司(Yahoo!奇摩)
 : *YSM API Engineer (outsourced contractor)*
-  __2012年04月-2013年04月__   
+  __2012年04月-2013年04月__  
   1. 開發  Yahoo!  Search  Marketing  (YSM)  之會員帳戶資料分析，優化的內部工具。  
   2. 開發報表工具之相關API給予內部其他系統以及其他頻道串接。  
   3. 開發工具給予Yahoo經銷商使用。
