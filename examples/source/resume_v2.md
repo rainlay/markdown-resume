@@ -37,8 +37,7 @@
 學悅科技股份有限公司
 : *Senior Back-end Developer*
   __2016年04月-現今__  
-  1. 後端 API 設計與開發，與前端網頁、APP 工程師合作開發產品，協助導入 REST 風格
-  API，定義 API 命名風格，回應格式與錯誤代碼。  
+  1. 後端 API 設計與開發，與前端網頁、APP 工程師合作開發產品，協助導入 REST 風格 API，定義 API 命名風格，回應格式與錯誤代碼。  
   2. 導入 Beanstalkd (Queue) 結合 Supervisor 解決每秒數百則推播訊息等高負載任務。  
   3. 導入 Workerman PHP Socket 框架，作為訊息聊天架構的解決方案。  
   4. 導入 Deployer 作為 Deployment 方案，建立自動部屬程式碼與 Rollback 機制。  
@@ -46,14 +45,16 @@
   6. 導入 Percona Monitoring and Management (PMM) 監控 MySQL 運行狀況，分析與優化。  
   7. 使用 Gulp 配合 CodeIgnter 實現 JS/CSS 快取更新機制，解決用戶瀏覽器常因為快取 JS/ CSS 而產生誤報的 Bug。  
   8. 協助導入 Redis 解決 File Cache 的效能瓶頸與狀態可能不一致的問題。  
-  9. 導入 Blackfire 來協助 PHP 端的效能分析與優化
+  9. 導入 Blackfire 來協助 PHP 端的效能分析與優化  
   10. Zuvio IRS-PTT Plugin 主要開發者。  
+  11. 成功遷移約 1.5 億筆資料 From MySQL -> Cassandra，解決 MySQL 大量資料
+造成的效能問題。
 
 uitox global e-commerce group
 : *Web Developer*
   __2013年6月-2016年04月__  
   1. 與設計師協同開發網頁前端應用。  
-  2. 開發公司內部賣場系統、公司電子商務網站。  
+  2. 開發公司內部賣場系統、公司電子商務網站（ASAP省錢購物網）。  
   3. 獨立執行小型專案，與團隊合作進行大型專案開發。  
 
 香港商雅虎資訊股份有限公司(Yahoo!奇摩)
@@ -66,7 +67,7 @@ uitox global e-commerce group
 MagV Ltd. Company
 : *Research And Development Engineer*
   __2011年03月-2012年03月__  
-  1. 維護公司網站，撰寫報表、金流、WebService等程式。  
+  1. 維護公司產品網站[www.magv.com](http://www.magv.com/)，撰寫報表、金流、WebService等程式。  
   2. 與客服人員協同處理會員使用系統遭遇之問題。  
   3. 研究新技術應用於工作。
 
