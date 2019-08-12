@@ -78,7 +78,7 @@ MagV Ltd. Company
 1. PHP / CodeIgniter
 1. JavaScript / jQuery
 1. WebSocket
-1. MySQL / MariaDB
+1. MySQL / MariaDB / Percona
 1. Redis
 1. Git
 1. Beanstalkd
