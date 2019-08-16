@@ -67,7 +67,7 @@ uitox global e-commerce group
   __2012年04月-2013年04月__  
   1. 開發 Yahoo! Search Marketing (YSM) 之會員帳戶資料分析，優化的內部工具。  
   2. 開發報表工具之相關API給予內部其他系統以及其他頻道串接。  
-  3. 開發 OLS AM Dashboard，並於 Yahoo 內部評比中獲得業務最愛使用之內部系統之一。
+  3. 開發 OLS AM Dashboard，並於內部評比中獲得業務最愛使用之內部系統之一。
 
 MagV Ltd. Company
 : *Research And Development Engineer*
