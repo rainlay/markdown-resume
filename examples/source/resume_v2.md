@@ -25,7 +25,7 @@
 * Knowledge of System Architecture, System Analysis, System Design, Clean Code
 * Knowledge of Continuous Integration / Continuous Delivery
 * Knowledge of Google Cloud Platform (GCP) Management, Docker, Ansible
-* PHP Framework : familiar with CodeIgniter, experience with Laravel
+* PHP Framework: familiar with CodeIgniter, experience with Laravel
 * Cache/NoSQL: Redis, Cassandra, MongoDB
 * Version Control: Git , SVN
 * Other: Node.js, Vue.js, Unit test, TDD, Gulp, Blackfire
@@ -45,12 +45,12 @@
   5. `Google Cloud Platform` 管理與維運，撰寫 Bash 協助工作自動化。  
   6. 導入 `RunDeck` 使部屬自動化，以及管理排程 (Cron Job)。  
   7. 導入 `Percona Monitoring and Management (PMM)` 監控 MySQL 運行狀況，分析與優化。  
-  8. 使用 `Gulp` 配合 CodeIgnter 實現 JS/CSS 快取更新機制，解決用戶瀏覽器常因為快取 JS/ CSS 而產生誤報的 Bug。  
-  9. 協助導入 Redis 解決 File Cache 的效能瓶頸與狀態可能不一致的問題。  
+  8. 使用 `Gulp` 配合 CodeIgnter 實現 JS/CSS 快取更新機制，解決用戶瀏覽器常因為快取 JS/ CSS 而產生誤報的 Bug，並提升網站整體效能，降低流量成本。  
+  9. 協助導入 `Redis` 解決 File Cache 的效能瓶頸與狀態可能不一致的問題。  
   10. 導入 `Blackfire` 來協助 PHP 端的效能分析與優化。  
   11. 成功遷移約 1.5 億筆資料 From MySQL -> `Cassandra`，解決 MySQL 大量資料
 造成的效能問題。  
-  12. 重新設計公司統計報表之 table schema, 配合 `partition` 與重新撰寫架構，解決原本統計資料跑不完之問題。  
+  12. 重新設計公司統計報表之 table schema, 配合 `partition` 與重新撰寫架構，解決原本統計資料排程無法執行完畢的問題。  
   13. `Zuvio IRS-PTT Plugin` 主要開發者。  
   14. 建立公司與`各大專學校間 API 串接之架構`（單向、雙向串接），讓各學校串接程式架構能保持一致性。
 
